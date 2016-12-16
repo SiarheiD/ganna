@@ -10,7 +10,6 @@ double-age mode: from aspect-ratio  750/667 to ...
 only screen and (min-aspect-ratio: 750/667) {
 
 
-
 }
 
 
@@ -22,23 +21,50 @@ only screen and (min-aspect-ratio: 850/667) {
 	.page-2 {
 
 		.img-container {
-
 			img {
-				width: 115%;
+				width: 108%;
 			}
 		}
 
+	}
+
+	.page-3 {
+		.img-container {
+			img {
+				margin-top: -2vh;
+			}
+		}
 	}
 
 	.page-4 {
 		.img-container {
 			img {
-				margin-top: -3rem;
+				margin-top: -6vh;
 			}
 		}
 	}
 
+	.page-9 {
 
+		.img-container {
+			max-height: 52%;
+			max-width: 100%;
+			width: 80vh;
+			margin: 0 auto;
+			img {
+				position: relative;
+				margin-top: -9vh;
+			}
+		}
+	}
+
+	.page-13 {
+
+		.text {
+			font-size: 3vh;
+			left: 5%;
+		}
+	}
 }
 
 
@@ -48,12 +74,13 @@ only screen and (min-aspect-ratio: 950/667)  {
 
 	.page-1 {
 		.hgroup-1 {
-			font-size: 1.0rem;
+			font-size: 2vh;
 		}
 	}
 
 	.page-2 {
 		.img-container {
+			max-height: 65%;
 			img {
 				width: 105%;
 			}
@@ -63,8 +90,16 @@ only screen and (min-aspect-ratio: 950/667)  {
 	.page-4 {
 		.img-container {
 			img {
-				margin-top: -4rem;
+				margin-top: -8vh;
 			}
+		}
+	}
+
+	.page-13 {
+
+		.text {
+			font-size: 3.2vh;
+			left: 8%;
 		}
 	}
 }
@@ -74,7 +109,11 @@ only screen and (min-aspect-ratio: 1050/667) {
 
 	.page-1 {
 		.hgroup-1 {
-			font-size: 1.1rem;
+			font-size: 2.2vh;
+			margin-top: -2vh;
+			h2 {
+				margin-bottom: 1vh;
+			}
 		}
 	}
 
@@ -82,7 +121,6 @@ only screen and (min-aspect-ratio: 1050/667) {
 		.img-container {
 			img {
 				width: 100%;
-				margin-top: -1.5rem;
 			}
 		}
 
@@ -91,7 +129,19 @@ only screen and (min-aspect-ratio: 1050/667) {
 	.page-4 {
 		.img-container {
 			img {
-				margin-top: -5rem;
+				margin-top: -10vh;
+			}
+		}
+	}
+
+	.page-5 {
+		.img-container {
+			width: 80vh;
+			max-width: 100%;
+			margin: auto;
+			img {
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 	}
@@ -106,24 +156,15 @@ only screen and (min-aspect-ratio: 1150/667) {
 
 	.page-1 {
 		.hgroup-1 {
-			font-size: 1.2rem;
+			font-size: 2.4vh;
 		}
 	}
 
-	.page-2 {
-		.img-container {
-			width: 40rem;
-			margin: auto;
-			img {
-				margin: 0 auto;
-			}
-		}
-	}
 
 	.page-4 {
 		.img-container {
 			img {
-				margin-top: -6.25rem;
+				margin-top: -12.5vh;
 			}
 		}
 	}
@@ -132,7 +173,7 @@ only screen and (min-aspect-ratio: 1150/667) {
 		.img-container {
 			img {
 				width: 100%;
-				margin-top: -4.4rem;
+				margin-top: -8.8vh;
 			}
 		}
 	}
@@ -145,11 +186,32 @@ only screen and (min-aspect-ratio: 1150/667) {
 @media only screen and (min-aspect-ratio: 625/667) and (max-aspect-ratio: 750/667),
 only screen and (min-aspect-ratio: 1250/667) {
 
+	.page-1 {
+		.hgroup-1 {
+			font-size: 2.2vh;
+			margin-top: -2.88vh;
+			h2 {
+				margin-bottom: .4vh;
+			}
+		}
+	}
+
+	.page-2 {
+		.img-container {
+			width: 80vh;
+			margin: auto;
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+
 	.page-4 {
 		.img-container {
 			img {
 				width: 100%;
-				margin-top: -6.75rem;
+				margin-top: -13.5vh;
 			}
 		}
 	}
@@ -160,7 +222,6 @@ only screen and (min-aspect-ratio: 1250/667) {
 
 @media only screen and (min-aspect-ratio: 675/667) and (max-aspect-ratio: 750/667),
 only screen and (min-aspect-ratio: 1350/667) {
-
 
 
 }
